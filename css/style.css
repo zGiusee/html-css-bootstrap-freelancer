@@ -1,5 +1,5 @@
 /*************** 
- GENERAL STYLES
+  GENERAL STYLES
  ***************/
 
  *{
@@ -7,3 +7,49 @@
     margin: 0;
     box-sizing: border-box;
  }
+
+.sm-content{
+   width: 100%;
+   height: 70px;
+   background-color: red;
+}
+
+.content{
+    height: 150px;
+ }
+
+ /*************** 
+      COLORS
+ ***************/
+
+.bg-dark-blue{
+    background-color: #2C3E50;
+}
+
+.bg-pink{
+    background-color: #BA4B63;
+}
+
+.bg-3A546D{
+    background-color: #3A546D;
+}
+
+.bg-blue{
+    background-color: #0E38B5;
+}
+
+.bg-black{
+    background-color: #140F0F;
+}
+
+.bg-light-pink{
+    background-color: #CCB2A3;
+}
+
+.bg-sky-blue{
+    background-color: #1C83C1;
+}
+
+.bg-water-green{
+    background-color: #1ABC9C;
+}
