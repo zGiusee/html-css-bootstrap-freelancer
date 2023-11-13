@@ -32,8 +32,62 @@
     border: 1px solid white;
     border-radius: 5px;
     background-color: transparent;
-
  }
+
+ /* STAR */
+
+ .star-container{
+    position: relative;
+ }
+
+ .fa-star{
+    position: relative;
+ }
+
+ .white-line:before {
+    content: "";
+    background: #fff;
+    display: block;
+    width: 150px;
+    height: 5px;
+    left: 150px;
+    top: 50%;
+    position: absolute;
+  }
+
+  .white-line:after {
+    content: "";
+    background: #fff;
+    display: block;
+    width: 150px;
+    height: 5px;
+    right: 150px;
+    top: 50%;
+    position: absolute;
+}
+
+.dark-blue-line:before {
+    content: "";
+    background: #2C3E50;
+    display: block;
+    width: 150px;
+    height: 5px;
+    left: 150px;
+    top: 50%;
+    position: absolute;
+  }
+
+  .dark-blue-line:after {
+    content: "";
+    background: #2C3E50;
+    display: block;
+    width: 150px;
+    height: 5px;
+    right: 150px;
+    top: 50%;
+    position: absolute;
+}
+
 
 /*************** 
    UTILITIES
@@ -205,7 +259,6 @@
 .white{
     color: #fff;
 }
-
 
 /*************** 
   MEDIA QUERIES 
