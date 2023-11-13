@@ -182,7 +182,7 @@
   .submit-btn:hover{
    color: #1ABC9C;
    background-color: white;
-   transition-duration: 0.7s;
+   transition-duration: 0.8s;
    border: 2px solid #1ABC9C;
   }
 
@@ -195,6 +195,8 @@
 
   .contact-me-form-type:focus{
    outline: none;
+   transition-duration: 0.4s;
+   border-bottom: 0.3rem solid #2C3E50;
   }
 
   ::placeholder{
@@ -249,6 +251,16 @@
     border-radius: 50%;
  }
 
+
+ .fa-linkedin-in:hover,
+ .fa-facebook-f:hover,
+ .fa-google-plus-g:hover,
+ .fa-twitter:hover{
+   color: #2C3E50;
+   background-color: white;
+   border-color: #2C3E50;
+   transition-duration: 0.8s;
+ }
  /* END OF FOOTER */
 
  
