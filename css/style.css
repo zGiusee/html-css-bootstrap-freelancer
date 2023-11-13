@@ -22,6 +22,10 @@
     font-size: 12px;
  }
 
+ .t-underline{
+   text-decoration: underline;
+ }
+
  .text-s{
     font-size: 15px;
  }
