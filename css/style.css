@@ -112,6 +112,7 @@
    SITE SECTION
  ***************/
 
+
  /* HEADER */
 
  .header-title{
@@ -146,6 +147,7 @@
 
  /* END OF HEADER */
 
+
  /* JUMBOTRON */
 
  #jumbo-img{
@@ -155,6 +157,7 @@
 
  /* END OF JUMBOTRON */
 
+
  /* ABOUT */
 
  .about-p{
@@ -162,6 +165,7 @@
  }
 
  /* END OF ABOUT */
+
 
  /* CONTACT ME SECTION */
 
@@ -174,7 +178,26 @@
     border-radius: 5px;
   }
 
+  .contact-me-form-type{
+    border: none;
+    border-bottom: solid 1px lightgrey;
+    width: 100%;
+    padding: 13px 0px;
+  }
+
+  .contact-me-form-type:focus{
+   outline: none;
+  }
+
+  ::placeholder{
+    color: #2C3E50;
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+
  /* END OF CONTACT ME SECTION */
+
 
  /* FOOTER */
 
