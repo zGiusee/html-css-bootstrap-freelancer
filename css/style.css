@@ -54,7 +54,7 @@
  /* HEADER */
 
  .header-title{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     font-weight: bold;
  }
@@ -82,6 +82,17 @@
     font-size: 15px;
     font-weight: bold;
  }
+
+ /* END OF HEADER */
+
+ /* JUMBOTRON */
+
+ #jumbo-img{
+    height: 250px;
+    width: 250px;
+ }
+
+ /* END OF JUMBOTRON */
 
  
 
@@ -146,4 +157,18 @@
     .header-menu-list-container{
         display: block;
     }
+
+    .header-title{
+        font-size: 20px;
+     }
+
+     /* END OF HEADER */
+
+     /* JUMBOTRON */
+
+     h1{
+        font-size: 60px;
+     }
+
+     /* END OF JUMBOTRON */
 }
