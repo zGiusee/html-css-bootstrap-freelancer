@@ -8,6 +8,8 @@
     box-sizing: border-box;
  }
 
+ /* ICONS */
+
 /*************** 
    UTILITIES
  ***************/
@@ -22,6 +24,10 @@
     height: 150px;
     background-color: red;
  }
+
+.p-relative{
+    position: relative;
+}
 
  /*************** 
    SITE SECTION
@@ -62,6 +68,10 @@
 
 .bg-aquamarine{
     background-color: #1ABC9C;
+}
+
+.dark-blue{
+    color: #2C3E50;
 }
 
 
