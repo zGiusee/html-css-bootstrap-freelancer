@@ -12,12 +12,19 @@
     text-decoration: none;
  }
 
- /* FONT */
+ /* FONT/TEXT */
 
  *{
     font-family: 'Open Sans', sans-serif;
  }
 
+ .text-xs{
+    font-size: 12px;
+ }
+
+ .text-s{
+    font-size: 15px;
+ }
  /* ICONS */
 
  .fa-bars{
@@ -102,6 +109,50 @@
 
  /* END OF ABOUT */
 
+ /* FOOTER */
+
+ .reference-title{
+    color: white;
+    font-size: 16px;
+ }
+
+ .icon-reference-list-container{
+    display: flex;
+    justify-content: center;
+ }
+
+ .icon-reference-list{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+ }
+
+ .icon-reference-list li{
+    padding: 0px 5px;
+ }
+
+ .icon-reference-list li a{
+    color: white;
+ }
+
+ .fa-facebook-f{
+    padding: 20px 15px;
+    border-radius: 50%;
+ }
+
+ .fa-google-plus-g,
+ .fa-twitter{
+    padding: 20px 10px;
+    border-radius: 50%;
+ }
+ 
+ .fa-linkedin-in{
+    padding: 20px 12px;
+    border-radius: 50%;
+ }
+
+ /* END OF FOOTER */
+
  
 
  
@@ -141,6 +192,10 @@
 
 .bg-aquamarine{
     background-color: #1ABC9C;
+}
+
+.aquamarine{
+    color: #1ABC9C;
 }
 
 .dark-blue{
@@ -189,6 +244,15 @@
      }
 
      /* END OF ABOUT */
+
+      /* FOOTER */
+
+     .reference-title{
+        font-weight: bold;
+        font-size: 20px;
+     }
+
+    /* END OF FOOTER */
 }
 
 @media screen and (min-width:992px){
