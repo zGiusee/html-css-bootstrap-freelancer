@@ -8,7 +8,25 @@
     box-sizing: border-box;
  }
 
+ a{
+    text-decoration: none;
+ }
+
+ /* FONT */
+
+ *{
+    font-family: 'Open Sans', sans-serif;
+ }
+
  /* ICONS */
+
+ .fa-bars{
+    padding: 15px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+
+ }
 
 /*************** 
    UTILITIES
@@ -32,6 +50,40 @@
  /*************** 
    SITE SECTION
  ***************/
+
+ /* HEADER */
+
+ .header-title{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+ }
+
+ .header-menu-container{
+    display: block;
+ }
+
+ .header-menu-list-container{
+    display: none;
+ }
+
+ .header-menu-list{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+ }
+
+ .header-menu-list li{
+    padding: 0px 10px;
+ }
+
+ .header-menu-list li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+ 
 
 
  /*************** 
@@ -74,7 +126,24 @@
     color: #2C3E50;
 }
 
+.white{
+    color: #fff;
+}
+
 
 /*************** 
   MEDIA QUERIES 
 ****************/
+
+@media screen and (min-width:768px){
+
+    /* HEADER */
+
+    .header-menu-container{
+        display: none;
+    }
+
+    .header-menu-list-container{
+        display: block;
+    }
+}
