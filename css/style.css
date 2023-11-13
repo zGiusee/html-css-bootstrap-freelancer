@@ -176,6 +176,14 @@
     background-color: #1ABC9C;
     border: none;
     border-radius: 5px;
+    border: 2px solid #fff;
+  }
+
+  .submit-btn:hover{
+   color: #1ABC9C;
+   background-color: white;
+   transition-duration: 0.7s;
+   border: 2px solid #1ABC9C;
   }
 
   .contact-me-form-type{
