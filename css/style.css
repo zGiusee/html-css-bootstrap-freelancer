@@ -88,11 +88,21 @@
  /* JUMBOTRON */
 
  #jumbo-img{
-    height: 250px;
-    width: 250px;
+    height: 280px;
+    width: 280px;
  }
 
  /* END OF JUMBOTRON */
+
+ /* ABOUT */
+
+ .about-p{
+    width: 70%;
+ }
+
+ /* END OF ABOUT */
+
+ 
 
  
 
@@ -171,4 +181,31 @@
      }
 
      /* END OF JUMBOTRON */
+
+     /* ABOUT */
+
+     .about-p{
+        width: 80%;
+     }
+
+     /* END OF ABOUT */
+}
+
+@media screen and (min-width:992px){
+
+    /* HEADER */
+
+    /* END OF HEADER */
+
+    /* JUMBOTRON */
+
+    /* END OF JUMBOTRON */
+
+    /* ABOUT */
+
+     .about-p{
+        width: 100%;
+     }
+     
+    /* END OF ABOUT */
 }
