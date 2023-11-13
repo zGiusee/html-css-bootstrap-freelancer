@@ -48,9 +48,9 @@
     content: "";
     background: #fff;
     display: block;
-    width: 150px;
+    width: 110px;
     height: 5px;
-    left: 150px;
+    left: 100px;
     top: 50%;
     position: absolute;
   }
@@ -59,9 +59,9 @@
     content: "";
     background: #fff;
     display: block;
-    width: 150px;
+    width: 110px;
     height: 5px;
-    right: 150px;
+    right: 100px;
     top: 50%;
     position: absolute;
 }
@@ -70,9 +70,9 @@
     content: "";
     background: #2C3E50;
     display: block;
-    width: 150px;
+    width: 110px;
     height: 5px;
-    left: 150px;
+    left: 100px;
     top: 50%;
     position: absolute;
   }
@@ -81,9 +81,9 @@
     content: "";
     background: #2C3E50;
     display: block;
-    width: 150px;
+    width: 110px;
     height: 5px;
-    right: 150px;
+    right: 100px;
     top: 50%;
     position: absolute;
 }
@@ -162,6 +162,19 @@
  }
 
  /* END OF ABOUT */
+
+ /* CONTACT ME SECTION */
+
+
+  .submit-btn{
+    color: white;
+    padding: 8px 15px;
+    background-color: #1ABC9C;
+    border: none;
+    border-radius: 5px;
+  }
+
+ /* END OF CONTACT ME SECTION */
 
  /* FOOTER */
 
@@ -306,6 +319,34 @@
      }
 
     /* END OF FOOTER */
+
+    /* ICONS */
+
+    .white-line:before {
+        width: 200px;
+        height: 5px;
+        left: 130px;
+      }
+    
+      .white-line:after {
+        width: 200px;
+        height: 5px;
+        right: 130px;
+    }
+    
+    .dark-blue-line:before {
+        width: 200px;
+        height: 5px;
+        left: 130px;
+      }
+    
+    .dark-blue-line:after {
+        width: 200px;
+        height: 5px;
+        right: 130px;
+
+    }
+    /* END OF ICONS */
 }
 
 @media screen and (min-width:992px){
