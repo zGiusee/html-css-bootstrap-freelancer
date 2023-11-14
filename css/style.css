@@ -98,17 +98,6 @@
    UTILITIES
  ***************/
 
-.sm-content{
-   width: 100%;
-   height: 70px;
-   background-color: red;
-}
-
-.content{
-    height: 150px;
-    background-color: red;
- }
-
 .p-relative{
     position: relative;
 }
