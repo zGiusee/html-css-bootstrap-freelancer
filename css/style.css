@@ -29,6 +29,7 @@
  .text-s{
     font-size: 15px;
  }
+
  /* ICONS */
 
  .fa-bars{
@@ -54,7 +55,7 @@
     display: block;
     width: 110px;
     height: 5px;
-    left: 100px;
+    left: 70px;
     top: 50%;
     position: absolute;
   }
@@ -65,7 +66,7 @@
     display: block;
     width: 110px;
     height: 5px;
-    right: 100px;
+    right: 70px;
     top: 50%;
     position: absolute;
 }
@@ -76,7 +77,7 @@
     display: block;
     width: 110px;
     height: 5px;
-    left: 100px;
+    left: 110px;
     top: 50%;
     position: absolute;
   }
@@ -87,7 +88,7 @@
     display: block;
     width: 110px;
     height: 5px;
-    right: 100px;
+    right: 110px;
     top: 50%;
     position: absolute;
 }
@@ -369,30 +370,7 @@
 
     /* ICONS */
 
-    .white-line:before {
-        width: 200px;
-        height: 5px;
-        left: 130px;
-      }
     
-      .white-line:after {
-        width: 200px;
-        height: 5px;
-        right: 130px;
-    }
-    
-    .dark-blue-line:before {
-        width: 200px;
-        height: 5px;
-        left: 130px;
-      }
-    
-    .dark-blue-line:after {
-        width: 200px;
-        height: 5px;
-        right: 130px;
-
-    }
     /* END OF ICONS */
 }
 
@@ -413,4 +391,32 @@
      }
      
     /* END OF ABOUT */
+
+    /* ICONS */
+
+    .white-line:before {
+      width: 130px;
+      height: 5px;
+      left: 75px;
+    }
+  
+    .white-line:after {
+      width: 130px;
+      height: 5px;
+      right: 75px;
+  }
+  
+  .dark-blue-line:before {
+      width: 130px;
+      height: 5px;
+      left: 130px;
+    }
+  
+  .dark-blue-line:after {
+      width: 130px;
+      height: 5px;
+      right: 130px;
+
+  }
+    /* END OF ICONS */
 }
